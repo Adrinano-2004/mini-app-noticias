@@ -9,7 +9,7 @@ export default function Sobre({ navigation }) {
       <View style={styles.linha} />
 
       <Text style={styles.texto}>
-        Esse é o Mini App de Notícias, feito na aula de Desenvolvimento Mobile.
+        Criei esse aplicativo de Notícias na matéria de Desenvolvimento Móvel.
       </Text>
       <Text style={styles.texto}>No app eu usei três tipos de navegação:</Text>
       <Text style={styles.item}>• Drawer (menu lateral)</Text>
