@@ -1,7 +1,6 @@
 import { FlatList, StyleSheet } from 'react-native';
 import CardNoticia from '../components/CardNoticia';
 
-// mesma tela para as duas abas, so muda a lista que recebe pelos params
 export default function ListaNoticias({ route, navigation }) {
   const { noticias } = route.params;
 

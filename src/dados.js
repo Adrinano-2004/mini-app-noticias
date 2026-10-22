@@ -1,4 +1,3 @@
-// noticias usadas nas listas (dados ficticios)
 export const noticiasTecnologia = [
   {
     id: '1',

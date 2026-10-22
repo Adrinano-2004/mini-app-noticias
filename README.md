@@ -1,25 +1,12 @@
-# Mini App de Notícias
+# mini-app-noticias
 
-Atividade 4 de Desenvolvimento Mobile, feita com React Native + Expo + React Navigation.
+Atividade 4 - Desenvolvimento Mobile
 
-## Navegação
-- **Drawer** (raiz): Notícias e Sobre
-- **Tabs** (dentro de Notícias): Tecnologia e Esportes
-- **Stack** (dentro de cada aba): Lista de notícias → Detalhes da notícia
+App de notícias em React Native (Expo) usando Drawer, Tabs e Stack do React Navigation.
 
-## Estrutura
-```
-App.js                        -> monta o Drawer, as Tabs e os Stacks
-src/dados.js                  -> lista de notícias
-src/components/CardNoticia.js -> card reutilizável das listas
-src/screens/ListaNoticias.js  -> lista de notícias (usada nas duas abas)
-src/screens/DetalhesNoticia.js-> notícia completa (título no header com setOptions)
-src/screens/Sobre.js          -> tela Sobre com imagem e botão Voltar
-```
+Para rodar:
 
-## Como rodar
 ```
 npm install
 npx expo start
 ```
-Aperte `w` para abrir no navegador ou leia o QR Code com o Expo Go.

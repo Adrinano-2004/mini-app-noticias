@@ -1,11 +1,11 @@
-import { useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
 
 export default function DetalhesNoticia({ route, navigation }) {
   const { noticia } = route.params;
 
-  // troca o titulo do header pelo titulo da noticia
-  useLayoutEffect(() => {
+  // coloca o titulo da noticia no header
+  useEffect(() => {
     navigation.setOptions({ title: noticia.titulo });
   }, [navigation, noticia]);
 

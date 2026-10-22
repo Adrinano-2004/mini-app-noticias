@@ -14,7 +14,7 @@ const Drawer = createDrawerNavigator();
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-// stack da aba Tecnologia: Lista -> Detalhes
+// aba tecnologia (lista e detalhes)
 function TecnologiaStack() {
   return (
     <Stack.Navigator>
@@ -29,7 +29,7 @@ function TecnologiaStack() {
   );
 }
 
-// stack da aba Esportes: Lista -> Detalhes
+// aba esportes
 function EsportesStack() {
   return (
     <Stack.Navigator>
@@ -44,7 +44,7 @@ function EsportesStack() {
   );
 }
 
-// abas de baixo da secao Noticias
+// tabs que ficam embaixo
 function NoticiasTabs() {
   return (
     <Tab.Navigator
@@ -76,7 +76,7 @@ function NoticiasTabs() {
   );
 }
 
-// drawer e a navegacao principal (raiz) do app
+// menu lateral (drawer)
 export default function App() {
   return (
     <NavigationContainer>
